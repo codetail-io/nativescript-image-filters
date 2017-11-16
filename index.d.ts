@@ -1,5 +1,8 @@
 import { Image } from "tns-core-modules/ui/image";
 import { ImageSource } from "tns-core-modules/image-source";
+import applicationModule = require("application");
+
+declare var android, java, com: any;
 export declare class ImageFilters {
   private _processor;
   constructor();
